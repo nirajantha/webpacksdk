@@ -1,6 +1,6 @@
 {
   "name": "webpacksdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "this sdk provides awesome ui using webpack",
   "scripts": {
     "build": "webpack --config webpack.config.js"
