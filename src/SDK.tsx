@@ -1,3 +1,10 @@
-import { Button } from "./components";
+// import React from "react";
+// // import { WebButton } from "./components";
 
-export { Button };
+// export class WebpackUi {
+//   static WebButton() {
+//     return <WebButton label="hello" />;
+//   }
+// }
+
+// export { WebButton };

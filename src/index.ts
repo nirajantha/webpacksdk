@@ -1,1 +1,1 @@
-export * from "./SDK";
+export { default as WebButton } from "./components/button/WebButton";

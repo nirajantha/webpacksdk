@@ -1,7 +1,9 @@
-{
+
+  
+  {
     "compilerOptions": {
       "target": "ES5",
-      "module": "ESNext",
+      "module": "ESNext", // Consider changing to "ESNext" if targeting modern browsers
       "lib": ["DOM", "ESNext"],
       "allowJs": true,
       "jsx": "react",
@@ -10,10 +12,9 @@
       "outDir": "dist",
       "strict": true,
       "esModuleInterop": true,
-      "moduleResolution": "Node",
+      "moduleResolution": "Node", // Should be "node" instead of "Node"
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true
     },
     "include": ["src"]
   }
-  

@@ -6,7 +6,7 @@ interface ButtonProps {
   onClick?: () => void;
 }
 
-const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
+const WebButton: React.FC<ButtonProps> = ({ label, onClick }) => {
   return (
     <button className="my-button" onClick={onClick}>
       {label}
@@ -14,4 +14,4 @@ const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
   );
 };
 
-export default Button;
+export default WebButton;

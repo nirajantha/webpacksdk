@@ -4,5 +4,5 @@ interface ButtonProps {
     label: string;
     onClick?: () => void;
 }
-declare const Button: React.FC<ButtonProps>;
-export default Button;
+declare const WebButton: React.FC<ButtonProps>;
+export default WebButton;
