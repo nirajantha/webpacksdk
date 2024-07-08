@@ -10,7 +10,6 @@ module.exports = {
     library: "webpacksdk",
     umdNamedDefine: true,
   },
-
   module: {
     rules: [
       {
@@ -19,10 +18,6 @@ module.exports = {
         use: {
           loader: "ts-loader",
         },
-      },
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
       },
     ],
   },
