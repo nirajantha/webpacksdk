@@ -10,6 +10,7 @@ interface dialerProps {
 const WebDialer: React.FC<dialerProps> = ({ userTheme }) => {
   const defaultTheme = {
     colorPrimary: "#6543A1",
+    textColor: "white",
   };
   return (
     <>
@@ -23,7 +24,7 @@ const WebDialer: React.FC<dialerProps> = ({ userTheme }) => {
                 : defaultTheme.colorPrimary,
               colorPrimary: userTheme
                 ? userTheme.colorPrimary
-                : defaultTheme.colorPrimary,
+                : defaultTheme.textColor,
             },
           },
         }}
