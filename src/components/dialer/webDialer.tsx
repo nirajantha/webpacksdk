@@ -1,4 +1,4 @@
-import { Button, ConfigProvider, theme, Tooltip } from "antd";
+import { Button, Card, ConfigProvider, Space, theme, Tooltip } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 import React from "react";
 interface dialerProps {
@@ -7,6 +7,7 @@ interface dialerProps {
   };
 }
 const WebDialer: React.FC<dialerProps> = ({ userTheme }) => {
+  const { Meta } = Card;
   const defaultTheme = {
     colorPrimary: "#6543A1",
   };
@@ -17,10 +18,21 @@ const WebDialer: React.FC<dialerProps> = ({ userTheme }) => {
           token: userTheme ? userTheme : defaultTheme,
         }}
       >
-        <Tooltip title="search">
-          <Button type="primary" shape="circle" icon={<SearchOutlined />} />
-        </Tooltip>
-        <Button>Dialer Button</Button>
+        <Card
+          hoverable
+          style={{ width: 240 }}
+          cover={
+            <img
+              alt="example"
+              src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            />
+          }
+        >
+          <Meta title="Europe Street beat" description="www.instagram.com" />
+          <Space direction="horizontal">
+            <Button>More</Button>
+          </Space>
+        </Card>
       </ConfigProvider>
     </>
   );
