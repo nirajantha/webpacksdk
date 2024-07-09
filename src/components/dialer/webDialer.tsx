@@ -15,14 +15,6 @@ const WebDialer: React.FC<dialerProps> = ({ userTheme }) => {
       <ConfigProvider
         theme={{
           token: userTheme ? userTheme : defaultTheme,
-          components: {
-            Button: {
-              defaultBg: userTheme
-                ? userTheme.colorPrimary
-                : defaultTheme.colorPrimary,
-              colorPrimary: "red",
-            },
-          },
         }}
       >
         <Tooltip title="search">
