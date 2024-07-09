@@ -7,7 +7,7 @@ interface dialerProps {
     colorTextBase: string;
   };
 }
-const webDialer: React.FC<dialerProps> = ({ userTheme }) => {
+const WebDialer: React.FC<dialerProps> = ({ userTheme }) => {
   const defaultTheme = {
     colorPrimary: "#6543A1",
     colorTextBase: "white",
@@ -28,4 +28,4 @@ const webDialer: React.FC<dialerProps> = ({ userTheme }) => {
   );
 };
 
-export default webDialer;
+export default WebDialer;

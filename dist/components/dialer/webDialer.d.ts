@@ -5,6 +5,6 @@ interface dialerProps {
         colorTextBase: string;
     };
 }
-declare const webDialer: React.FC<dialerProps>;
-export default webDialer;
-//# sourceMappingURL=webDialer.d.ts.map
+declare const WebDialer: React.FC<dialerProps>;
+export default WebDialer;
+//# sourceMappingURL=WebDialer.d.ts.map
