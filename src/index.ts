@@ -1,3 +1,3 @@
-import WebButton from "./WebButton";
+import WebButton from "./components/buttons/WebButton";
 
 export { WebButton };

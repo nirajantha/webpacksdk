@@ -1,4 +1,5 @@
 import React from "react";
+import "./button.css";
 
 interface ButtonProps {
   label: string;
@@ -6,7 +7,11 @@ interface ButtonProps {
 }
 
 const WebButton: React.FC<ButtonProps> = ({ label, onClick }) => {
-  return <button onClick={onClick}>{label}</button>;
+  return (
+    <button className="web-btn" onClick={onClick}>
+      {label}
+    </button>
+  );
 };
 
 export default WebButton;

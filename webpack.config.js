@@ -19,6 +19,10 @@ module.exports = {
           loader: "ts-loader",
         },
       },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   externals: {
@@ -35,6 +39,7 @@ module.exports = {
       root: "ReactDOM",
     },
   },
+
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
   },
