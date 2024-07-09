@@ -4,6 +4,7 @@ import { Button, Checkbox, Form, Input } from "antd";
 
 interface webformProps {
   children: React.ReactNode;
+  direction: any;
 }
 type FieldType = {
   username?: string;
@@ -19,8 +20,9 @@ const onFinishFailed: FormProps<FieldType>["onFinishFailed"] = (errorInfo) => {
   console.log("Failed:", errorInfo);
 };
 
-const WebForm: React.FC<webformProps> = ({ children }) => (
+const WebForm: React.FC<webformProps> = ({ children, direction }) => (
   <Form
+    layout={direction}
     name="basic"
     labelCol={{ span: 8 }}
     wrapperCol={{ span: 16 }}
