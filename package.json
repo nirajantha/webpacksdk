@@ -1,6 +1,6 @@
 {
   "name": "webpacksdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "this sdk provides awesome ui using webpack",
   "main": "dist/index.js",
   "scripts": {
