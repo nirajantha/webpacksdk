@@ -1,0 +1,1 @@
+{"version":3,"file":"WebButton.d.ts","sourceRoot":"","sources":["../../../src/components/buttons/WebButton.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,cAAc,CAAC;AAGtB,UAAU,WAAW;IACnB,KAAK,EAAE,MAAM,CAAC;IACd,OAAO,CAAC,EAAE,MAAM,IAAI,CAAC;CACtB;AAED,QAAA,MAAM,SAAS,EAAE,KAAK,CAAC,EAAE,CAAC,WAAW,CAOpC,CAAC;AAEF,eAAe,SAAS,CAAC"}

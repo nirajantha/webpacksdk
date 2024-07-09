@@ -6,3 +6,4 @@ interface ButtonProps {
 }
 declare const WebButton: React.FC<ButtonProps>;
 export default WebButton;
+//# sourceMappingURL=WebButton.d.ts.map

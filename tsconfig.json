@@ -1,19 +1,53 @@
 
-{
+// {
+//     "compilerOptions": {
+//       "target": "ES5",
+//       "module": "ESNext",
+//       "lib": ["DOM", "ESNext"],
+//       "allowJs": true,
+//       "jsx": "react",
+//       "declaration": true,
+//       "sourceMap": true,
+//       "outDir": "dist",
+//       "strict": true,
+//       "esModuleInterop": true,
+//       "moduleResolution": "node", // Corrected to "node"
+//       "skipLibCheck": true,
+//       "forceConsistentCasingInFileNames": true
+//     },
+//     "include": ["src"]
+//   }
+
+// {
+//     "compilerOptions": {
+//       "outDir": "./dist",
+//       "module": "ESNext",
+//       "target": "ES5",
+//       "declaration": true,
+//       "declarationMap": true,
+//       "sourceMap": true,
+//       "jsx": "react",
+//       "moduleResolution": "node",
+//       "esModuleInterop": true,
+//       "skipLibCheck": true,
+//       "strict": true
+//     },
+//     "include": ["src"]
+//   }
+
+  {
     "compilerOptions": {
-      "target": "ES5",
+      "outDir": "./dist",
       "module": "ESNext",
-      "lib": ["DOM", "ESNext"],
-      "allowJs": true,
-      "jsx": "react",
+      "target": "ES5",
       "declaration": true,
+      "declarationMap": true,
       "sourceMap": true,
-      "outDir": "dist",
-      "strict": true,
+      "jsx": "react",
+      "moduleResolution": "node",
       "esModuleInterop": true,
-      "moduleResolution": "node", // Corrected to "node"
       "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true
+      "strict": true
     },
     "include": ["src"]
   }
