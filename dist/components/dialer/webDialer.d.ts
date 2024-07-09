@@ -2,7 +2,6 @@ import React from "react";
 interface dialerProps {
     userTheme?: {
         colorPrimary: string;
-        bgColor: string;
     };
 }
 declare const WebDialer: React.FC<dialerProps>;

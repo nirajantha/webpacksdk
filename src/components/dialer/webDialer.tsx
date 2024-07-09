@@ -4,13 +4,11 @@ import React from "react";
 interface dialerProps {
   userTheme?: {
     colorPrimary: string;
-    bgColor: string;
   };
 }
 const WebDialer: React.FC<dialerProps> = ({ userTheme }) => {
   const defaultTheme = {
     colorPrimary: "#6543A1",
-    textColor: "white",
   };
   return (
     <>
@@ -20,11 +18,9 @@ const WebDialer: React.FC<dialerProps> = ({ userTheme }) => {
           components: {
             Button: {
               defaultBg: userTheme
-                ? userTheme.bgColor
-                : defaultTheme.colorPrimary,
-              colorPrimary: userTheme
                 ? userTheme.colorPrimary
-                : defaultTheme.textColor,
+                : defaultTheme.colorPrimary,
+              colorPrimary: "red",
             },
           },
         }}
