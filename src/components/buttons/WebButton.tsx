@@ -12,7 +12,9 @@ const WebButton: React.FC<ButtonProps> = ({ label, onClick }) => {
     // <button className="web-btn" onClick={onClick}>
     //   {label}
     // </button>
-    <Button onClick={onClick} title={label} type="primary" />
+    <Button onClick={onClick} type="primary">
+      {label}
+    </Button>
   );
 };
 
