@@ -1,5 +1,6 @@
 import React from "react";
 import "./button.css";
+import { Button } from "antd";
 
 interface ButtonProps {
   label: string;
@@ -8,9 +9,10 @@ interface ButtonProps {
 
 const WebButton: React.FC<ButtonProps> = ({ label, onClick }) => {
   return (
-    <button className="web-btn" onClick={onClick}>
-      {label}
-    </button>
+    // <button className="web-btn" onClick={onClick}>
+    //   {label}
+    // </button>
+    <Button onClick={onClick} />
   );
 };
 
