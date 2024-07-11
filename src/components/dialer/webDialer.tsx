@@ -16,11 +16,6 @@ const WebDialer: React.FC<dialerProps> = ({ userTheme }) => {
       <ConfigProvider
         theme={{
           token: userTheme ? userTheme : defaultTheme,
-          components: {
-            Button: {
-              colorBgBase: "red",
-            },
-          },
         }}
       >
         <Card
