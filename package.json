@@ -1,5 +1,5 @@
 {
-  "name": "webpack-sdk",
+  "name": "webpacklearning-sdk",
   "version": "1.0.24",
   "description": "this sdk provides awesome ui using webpack",
   "main": "dist/index.js",
