@@ -1,12 +1,20 @@
 {
-  "name": "webpacklearning-sdk",
+  "name": "webpacksdk",
   "version": "1.0.26",
   "description": "this sdk provides awesome ui using webpack",
   "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "build": "webpack --config webpack.config.js"
+  },
+  "exports":{
+    ".":{
+      "types":"dist/index.d.ts",
+      "default":"dist/index.js"
+
+
+
+    }
+
   },
   "repository": "https://github.com/nirajantha/webpacksdk.git",
   "author": "nirajan thapa",

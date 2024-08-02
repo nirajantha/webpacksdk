@@ -4,14 +4,14 @@ import { Button } from "antd";
 
 interface ButtonProps {
   label: string;
-  onClick?: () => void;
+  onclick?: () => void;
   children?: React.ReactNode;
   className?: string;
 }
 
 const WebButton: React.FC<ButtonProps> = ({
   label,
-  onClick,
+  onclick,
   children,
   className,
 }) => {
@@ -19,7 +19,7 @@ const WebButton: React.FC<ButtonProps> = ({
     // <button className="web-btn" onClick={onClick}>
     //   {label}
     // </button>
-    <Button className={`bg-[green] ${className}`} onClick={onClick}>
+    <Button className={`bg-[green] ${className}`} onClick={onclick}>
       {label} {children}
     </Button>
   );

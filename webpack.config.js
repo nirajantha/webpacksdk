@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
     libraryTarget: "umd",
-    library: "webpacklearning-sdk",
+    library: "webpacksdk",
     umdNamedDefine: true,
   },
   module: {
@@ -15,9 +15,14 @@ module.exports = {
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: "ts-loader",
-        },
+        use: [
+          {
+            loader: "babel-loader",
+          },
+          {
+            loader: "ts-loader",
+          },
+        ],
       },
       {
         test: /\.css$/i,
