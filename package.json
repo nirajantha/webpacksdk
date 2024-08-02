@@ -1,20 +1,16 @@
 {
   "name": "webpacksdk",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "this sdk provides awesome ui using webpack",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js"
   },
-  "exports":{
-    ".":{
-      "types":"dist/index.d.ts",
-      "default":"dist/index.js"
-
-
-
+  "exports": {
+    ".": {
+      "types": "dist/index.d.ts",
+      "default": "dist/index.js"
     }
-
   },
   "repository": "https://github.com/nirajantha/webpacksdk.git",
   "author": "nirajan thapa",
